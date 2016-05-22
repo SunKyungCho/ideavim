@@ -1,20 +1,6 @@
 IdeaVim
 =======
 
-<div>
-  <a href="http://teamcity.jetbrains.com/viewType.html?buildTypeId=IdeaVim_Build&guest=1">
-    <img src="http://teamcity.jetbrains.com/app/rest/builds/buildType:(id:IdeaVim_Build)/statusIcon.svg?guest=1"/>
-  </a>
-  <span>Build<span>
-</div>
-
-<div>
-  <a href="http://teamcity.jetbrains.com/viewType.html?buildTypeId=IdeaVim_TestsForIntelliJ15&guest=1">
-    <img src="http://teamcity.jetbrains.com/app/rest/builds/buildType:(id:IdeaVim_TestsForIntelliJ15)/statusIcon.svg?guest=1"/>
-  </a>
-  <span>Tests</span>
-</div>
-
 IdeaVim is a Vim emulation plugin for IDEs based on the IntelliJ platform.
 IdeaVim can be used with IntelliJ IDEA, RubyMine, PyCharm, PhpStorm, WebStorm,
 AppCode, CLion, DataGrip and Android Studio.
@@ -26,6 +12,13 @@ Resources:
 * [Bug tracker](http://youtrack.jetbrains.com/issues/VIM)
 * [Continuous integration builds](http://teamcity.jetbrains.com/project.html?projectId=IdeaVim&guest=1)
 * [@IdeaVim](http://twitter.com/ideavim) in Twitter
+
+
+About this Branch
+-----------------
+
+This branch allows usage of shift-arrow keys to use selection just
+like without ideavim plugin enabled.
 
 
 Installation
