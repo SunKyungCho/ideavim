@@ -8,9 +8,14 @@ Installation
 ------------
 
 
-1. Clone the repository on your local machine.
+1. Clone the repository on your local machine:
+    ```
+    # git clone https://github.com/epegzz/ideavim.git
+    # cd ideavim
+    # git checkout no-shift-arrow-actions
+    ```
 
-5. Build the plugin distribution by running `./gradlew clean buildPlugin` in the
+2. Build the plugin distribution by running `./gradlew clean buildPlugin` in the
    terminal in your project root.
 
     * The resulting distribution file is build/distributions/IdeaVim-VERSION.zip
