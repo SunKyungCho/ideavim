@@ -2,7 +2,7 @@
   <name>IdeaVim</name>
   <id>IdeaVIM</id>
   <change-notes><![CDATA[
-      <p>To be released:</p>
+      <p>0.46:</p>
       <ul>
         <li>Support for <code>incsearch</code> option for showing search results while typing</li>
         <li>Support for <code>it</code> and <code>at</code> tag block selection</li>
@@ -85,7 +85,6 @@
   </extensionPoints>
 
   <extensions defaultExtensionNs="com.intellij">
-    <errorHandler implementation="com.intellij.diagnostic.ITNReporter"/>
     <applicationConfigurable instance="com.maddyhome.idea.vim.ui.VimEmulationConfigurable"/>
   </extensions>
 

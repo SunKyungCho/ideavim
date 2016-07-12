@@ -17,8 +17,8 @@ Please note that the quality of EAP versions may at times be way below even
 usual beta standards.
 
 
-To Be Released
---------------
+0.46, 2016-07-07
+----------------
 
 Added `incsearch` option for incremental search. Added support for `it` and
 `at` tag block selection. Added `vim-surround` commands `ys`, `cs`, `ds`,
@@ -43,6 +43,7 @@ Bug fixes:
 * VIM-287 Fixed insert new line before and after folds
 * VIM-139 Focus on current search and use modal confirmation for `:s///gc`
 * VIM-843 Don't highlight search results after restart
+* VIM-1126 Fixed warning about modifying shortcuts of global actions for 2016.2
 
 
 0.44, 2015-11-02
